@@ -1,3 +1,11 @@
+.knowledge-explorer-topic {
+  .topic-avatar, .topic-meta-data, .post-menu-area, .post-actions {
+    display: none;
+  }
+  .topic-body {
+    border-top: none;
+  }
+}
 .knowledge-explorer-search-wrapper {
   position: relative;
   width: 500px;

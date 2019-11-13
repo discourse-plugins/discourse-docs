@@ -4,7 +4,7 @@
 
 <div class="topic-content">
   <h1>{{topic.title}}</h1>
-  {{{originalPostContent}}}
+  {{mount-widget widget="post" args=topic.post_stream.posts.firstObject}}
 </div>
 
 <a class="knowledge-explorer-nav-link more" href="/t/{{topic.id}}">
